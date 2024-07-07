@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-const mongoURI = "mongodb://localhost:27017/?directConnection=true&readPreference=primary"
+const mongoURI = "mongodb://localhost:27017/MyNoteBook?directConnection=true&readPreference=primary"
 
 const connectToMongo = () => {
 
